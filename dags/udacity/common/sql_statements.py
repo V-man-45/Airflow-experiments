@@ -79,3 +79,5 @@ CREATE TABLE station_traffic AS
         GROUP BY to_station_id
     ) AS ts ON t.from_station_id = ts.to_station_id
 """
+
+#this is used to create the station traffic table
