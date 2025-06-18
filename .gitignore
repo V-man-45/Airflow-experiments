@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+python_venv_airflow_v1/
+
+# Logs and Airflow runtime files
+logs/*
+airflow-webserver.pid
+airflow.db
+webserver.cfg
+webserver.cfg
+
+
+# Environment and secret files
+.env
+secrs/
+
+# Editor and system files
+.vscode/
+.DS_Store
+
+# Build and metadata
+*.egg-info/
+dist/
+build/
+
+#connection files
+airflow.cfg
+set_connections_and_variables.sh
