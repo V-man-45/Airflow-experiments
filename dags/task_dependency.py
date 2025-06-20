@@ -47,3 +47,5 @@ def task_dependencies():
 # task_dependencies represents the invocation of the task_dependencies
 task_dependencies_dag = task_dependencies()
 
+# This line is necessary to ensure that the DAG is discoverable by Airflow
+globals()['task_dependencies'] = task_dependencies_dag
